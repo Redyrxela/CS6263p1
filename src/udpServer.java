@@ -8,6 +8,7 @@ public class udpServer {
        //create a socket
        DatagramSocket Socket = new DatagramSocket(5555);
 
+
        //send and recieve data
        byte[] receiveData = new byte[1024];
        byte[] sendData = new byte[1024];

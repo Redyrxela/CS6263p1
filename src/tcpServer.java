@@ -13,6 +13,7 @@ public class tcpServer {
         while(true) //servers run loop forever
         {
             //accept new connections to the socket
+
             Socket connectionSocket = Socket.accept();
             //create streams
             BufferedReader receive = new BufferedReader(new InputStreamReader(connectionSocket.getInputStream()));

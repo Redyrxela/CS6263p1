@@ -14,6 +14,7 @@ public class tcpClient {
         System.out.println("Please enter an IP address (v4): ");
         String IPA = input.readLine();
         //create a socket with given ip address and port
+
         Socket clientSocket = new Socket(IPA, 6666);
         //network output stream
         DataOutputStream send = new DataOutputStream(clientSocket.getOutputStream());

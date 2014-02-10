@@ -21,6 +21,7 @@ class udpClient
         byte[] sendData = new byte[1024];
         byte[] receiveData = new byte[1024];
 
+
         //get a string from the user
         System.out.println("Please enter a message in lowercase: ");
         String inputMsg = input.readLine();
